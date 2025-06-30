@@ -68,14 +68,14 @@ product-checkout-app/
 ---
 
 ## 📌 Assumptions
-• Product data is hardcoded in the script file.
-• Product IDs must be entered exactly (case-insensitive) to add to cart.
-• No backend or storage — the data resets on page reload
+- Product data is hardcoded in the script file.
+- Product IDs must be entered exactly (case-insensitive) to add to cart.
+- No backend or storage — the data resets on page reload
 
 ---
 
 ## 📞 Contact
-Built with ❤️ by Bajrang Kumar Mahto
-📧 mbajrang214@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/bajrang214
-💻 GitHub: https://github.com/bajrang214
+Built with ❤️ by Bajrang Kumar Mahto 
+📧 mbajrang214@gmail.com 
+🔗 LinkedIn: https://www.linkedin.com/in/bajrang214 
+💻 GitHub: https://github.com/bajrang214 
