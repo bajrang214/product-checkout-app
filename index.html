@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Product Checkout App</h1>
+
+    <!-- Product ID input section -->
+    <div class="input-section">
+      <input type="text" id="productIdInput" placeholder="Enter Product ID" />
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <!-- Cart display -->
+    <h2>Cart</h2>
+    <table id="cartTable">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price per unit</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Cart items will appear here -->
+      </tbody>
+    </table>
+
+    <!-- Checkout section -->
+    <div class="checkout">
+      <button onclick="checkout()">Checkout</button>
+      <p id="totalAmount"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
